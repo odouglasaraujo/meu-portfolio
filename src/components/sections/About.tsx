@@ -112,7 +112,7 @@ export function About() {
           <FadeIn className="flex flex-col gap-4" delay={0.06}>
             <div className="relative min-h-[340px] flex-1 overflow-hidden rounded-card bg-paper-sunken shadow-[0_2px_12px_-8px_rgba(14,20,16,0.18)]">
               <img
-                src="/assets/portrait-placeholder.svg"
+                src={`${import.meta.env.BASE_URL}assets/portrait-placeholder.svg`}
                 alt="Doug"
                 className="absolute inset-0 size-full object-cover"
               />

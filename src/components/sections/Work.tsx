@@ -4,9 +4,9 @@ import { FadeIn } from '@/components/primitives/FadeIn'
 // Seus projetos. Troque nome/descrição e coloque as imagens em /public/assets
 // (proporção 4:3). Adicione ou remova itens à vontade.
 const projects = [
-  { n: '01', name: 'Project One', desc: 'Short description of the project', img: '/assets/case-placeholder.svg' },
-  { n: '02', name: 'Project Two', desc: 'What it was and what you did', img: '/assets/case-placeholder.svg' },
-  { n: '03', name: 'Project Three', desc: 'A line about the outcome', img: '/assets/case-placeholder.svg' },
+  { n: '01', name: 'Project One', desc: 'Short description of the project', img: 'assets/case-placeholder.svg' },
+  { n: '02', name: 'Project Two', desc: 'What it was and what you did', img: 'assets/case-placeholder.svg' },
+  { n: '03', name: 'Project Three', desc: 'A line about the outcome', img: 'assets/case-placeholder.svg' },
 ]
 
 export function Work() {
@@ -37,7 +37,7 @@ export function Work() {
                   </div>
                   <div className="relative mt-6 aspect-[4/3] overflow-hidden rounded-card bg-paper-sunken">
                     <img
-                      src={p.img}
+                      src={`${import.meta.env.BASE_URL}${p.img}`}
                       alt={p.name}
                       loading="lazy"
                       className="size-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"

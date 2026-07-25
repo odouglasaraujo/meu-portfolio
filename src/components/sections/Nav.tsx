@@ -27,7 +27,7 @@ export function Nav() {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="text-sm font-medium text-ink-muted transition-colors hover:text-ink"
           >

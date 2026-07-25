@@ -53,7 +53,7 @@ export function Contact() {
             Open to Product Design, Brand Design and AI product opportunities.
           </p>
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="mt-8 inline-flex h-11 items-center gap-2 rounded-pill border border-line-strong px-6 text-sm font-semibold text-ink transition-colors hover:bg-paper-sunken"
           >
