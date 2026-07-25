@@ -38,11 +38,12 @@
   --color-ink: #0e1410;
   --color-ink-muted: #5c6b60;
   --color-ink-subtle: #8a968c;
-  --color-lime: #aaee86;
-  --color-lime-strong: #97e06a;
-  --color-lime-ink: #14200f;
-  --color-forest: #2c4136;
-  --color-forest-deep: #11160f;
+  /* Acento — azul claro do Estúdio Peregrinos (#A2D1F6) */
+  --color-lime: #a2d1f6;
+  --color-lime-strong: #8ac2f2;
+  --color-lime-ink: #123047;
+  --color-forest: #2f6da3;
+  --color-forest-deep: #123047;
   --color-periwinkle: #6f79dd;
   --color-line: color-mix(in srgb, #0e1410 12%, transparent);
   --color-line-strong: color-mix(in srgb, #0e1410 24%, transparent);
@@ -99,12 +100,12 @@
   --secondary-foreground: #0e1410;
   --muted: #eceee7;
   --muted-foreground: #5c6b60;
-  --accent: #aaee86;
-  --accent-foreground: #14200f;
+  --accent: #a2d1f6;
+  --accent-foreground: #123047;
   --destructive: #c0402e;
   --border: color-mix(in srgb, #0e1410 12%, transparent);
   --input: color-mix(in srgb, #0e1410 16%, transparent);
-  --ring: #2c4136;
+  --ring: #2f6da3;
 }
 
 /* ---------- Modo escuro (bônus, pronto pra usar) ---------- */
@@ -115,18 +116,18 @@
   --card-foreground: #e6ece6;
   --popover: #141a16;
   --popover-foreground: #e6ece6;
-  --primary: #aaee86;
-  --primary-foreground: #14200f;
+  --primary: #a2d1f6;
+  --primary-foreground: #123047;
   --secondary: #1b241e;
   --secondary-foreground: #e6ece6;
   --muted: #1b241e;
   --muted-foreground: #7e8b82;
-  --accent: #aaee86;
-  --accent-foreground: #14200f;
+  --accent: #a2d1f6;
+  --accent-foreground: #123047;
   --destructive: #e5674f;
   --border: color-mix(in srgb, #ffffff 8%, transparent);
   --input: color-mix(in srgb, #ffffff 12%, transparent);
-  --ring: #aaee86;
+  --ring: #a2d1f6;
 }
 
 @layer base {

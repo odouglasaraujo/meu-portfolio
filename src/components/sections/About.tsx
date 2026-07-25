@@ -7,9 +7,9 @@ import { socials } from '@/lib/socials'
 
 // Sua experiência. Sem datas, só Now/Prev. Adicione ou remova itens à vontade.
 const experience = [
-  { period: 'Now', role: 'Your Role', company: 'Current Company' },
-  { period: 'Prev.', role: 'Previous Role', company: 'Previous Company' },
-  { period: 'Prev.', role: 'Earlier Role', company: 'Earlier Company' },
+  { period: 'Now', role: 'Product Designer', company: 'Content Lead' },
+  { period: 'Prev.', role: 'UX/UI Designer', company: 'EY' },
+  { period: 'Also', role: 'Founder', company: 'Estúdio Peregrinos' },
 ]
 
 function Card({
@@ -47,8 +47,13 @@ export function About() {
                 A bit about me.
               </h2>
               <p className="mt-4 text-ink-muted">
-                A short introduction. Say who you are, what you do, and the kind
-                of work you care about the most.
+                I design products, shape brands, and connect business strategy
+                with user experience.
+              </p>
+              <p className="mt-3 text-ink-muted">
+                Currently a Product Designer at Content Lead, creating AI
+                products, knowledge systems and growth experiences. Previously,
+                I designed data products and enterprise platforms for EY.
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-2">
                 {socials.map((s) => (
@@ -72,7 +77,7 @@ export function About() {
                   </a>
                 ))}
                 <a
-                  href="mailto:you@example.com"
+                  href="mailto:douglas@peregrinos.com.br"
                   aria-label="Email"
                   title="Email"
                   className="inline-flex size-9 items-center justify-center rounded-pill border border-line text-ink-muted transition-colors hover:border-forest hover:text-forest"
@@ -88,13 +93,16 @@ export function About() {
             >
               <div className="space-y-4 text-ink-muted">
                 <p>
-                  This is your story. Share how you got into your work, the path
-                  that led you here, and what keeps you going. Keep it personal
-                  and honest, it is what makes a portfolio memorable.
+                  I design products with a branding mindset. Over the past few
+                  years I've worked across AI, data products, SaaS, branding and
+                  growth, helping companies turn complex ideas into intuitive
+                  digital experiences.
                 </p>
                 <p>
-                  Talk about your craft, your process, or the kind of problems
-                  you love solving. A couple of short paragraphs is plenty.
+                  Today I'm focused on the intersection between Product Design,
+                  Brand Strategy and Artificial Intelligence — because I believe
+                  the strongest products are built by companies with clear
+                  brands.
                 </p>
               </div>
             </Card>
@@ -105,7 +113,7 @@ export function About() {
             <div className="relative min-h-[340px] flex-1 overflow-hidden rounded-card bg-paper-sunken shadow-[0_2px_12px_-8px_rgba(14,20,16,0.18)]">
               <img
                 src="/assets/portrait-placeholder.svg"
-                alt="Your photo"
+                alt="Doug"
                 className="absolute inset-0 size-full object-cover"
               />
               <div className="absolute inset-x-4 bottom-4 flex flex-col items-start gap-2">
@@ -113,7 +121,7 @@ export function About() {
                   Hi! 👋
                 </span>
                 <span className="rounded-pill bg-paper-raised/90 px-3 py-1.5 text-sm text-ink shadow-sm backdrop-blur">
-                  I'm Your Name
+                  I'm Doug
                 </span>
                 <span className="rounded-pill bg-lime px-3 py-1.5 text-sm font-medium text-lime-ink shadow-sm">
                   Let's build something ✌️

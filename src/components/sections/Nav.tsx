@@ -14,7 +14,7 @@ export function Nav() {
           href="#top"
           className="font-display text-xl leading-none tracking-tight text-ink"
         >
-          Your Name
+          Doug
         </a>
         <nav className="flex items-center gap-6 sm:gap-8">
           {links.map((l) => (

@@ -4,7 +4,7 @@ import { Container } from '@/components/primitives/Container'
 import { FadeIn } from '@/components/primitives/FadeIn'
 import { socials } from '@/lib/socials'
 
-const EMAIL = 'you@example.com'
+const EMAIL = 'douglas@peregrinos.com.br'
 
 function CopyEmail() {
   const [copied, setCopied] = useState(false)
@@ -47,10 +47,10 @@ export function Contact() {
         <FadeIn>
           <span className="label !text-ink-subtle">Contact</span>
           <h2 className="mt-6 max-w-xl text-balance font-display text-h1 text-ink">
-            Let's build something that feels right.
+            Let's build products people remember.
           </h2>
           <p className="mt-5 max-w-xl text-body-lg text-ink-muted">
-            Open to product and UI design projects.
+            Open to Product Design, Brand Design and AI product opportunities.
           </p>
           <a
             href="/resume.pdf"
@@ -94,9 +94,9 @@ export function Contact() {
         </FadeIn>
 
         <div className="mt-20 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <span className="label !text-ink-subtle">© 2026 Your Name</span>
+          <span className="label !text-ink-subtle">© 2026 Doug</span>
           <span className="label !text-ink-subtle">
-            Imagined by me, coded by AI.
+            Designed by me. Built with AI.
           </span>
         </div>
       </Container>
